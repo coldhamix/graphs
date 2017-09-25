@@ -1,0 +1,28 @@
+:host,
+.viewport {
+  min-height: 500px;
+}
+
+.toolbar-handle {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+button {
+  -webkit-app-region: no-drag;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.viewport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+}
+
+md-card {
+  width: 600px;
+}
